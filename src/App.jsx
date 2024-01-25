@@ -1,10 +1,14 @@
 import React from 'react'
-import Counter from './pages/Counter'
+import UsersList from './pages/users/UsresList'
+import PostsList from './pages/posts/PostsList'
+import CardsList from './pages/cards/CardsList'
 
 export default function App() {
   return (
     <div>
-      <Counter/>
+      <UsersList/>
+      <PostsList/>
+      <CardsList/>
     </div>
   )
 }
